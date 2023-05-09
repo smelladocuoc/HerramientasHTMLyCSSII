@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>UOC Boilerplate</title>
+</head>
+
+<include src="./views/header.html"></include>
+
+<body>
+  <div class="uoc-container">
+
+    <h1 class="uoc-container__uoc-title">Historia del ajedrez</h1>
+    <div class="uoc-container__historia">
+      <p>El origen del juego ajedrez sigue siendo un misterio, pero la versión más aceptada sugiere que el ajedrez fue
+        inventado en Asia, probablemente en India, con el nombre de <span class="historia__cursiva">chaturanga</span>, y
+        desde ahí
+        se extendió a
+        China, Rusia,
+        Persia y Europa, donde se estableció la normativa vigente. Sin embargo, investigaciones recientes indican un
+        posible origen chino, en la región entre Uzbekistán y la antigua Persia, que se podría remontar hasta el siglo
+        iii
+        a. C.</p>
+      <img class="historia__imagen-historia" src="./assets/images/historia-ajedrez.jpg?" alt="Historia ajedrez">
+      <p>Uno de los registros literarios más antiguos sobre el ajedrez es el poema persa <span class="cursiva">Kar-Namag
+          i Ardashir i
+          Pabagan</span>,
+        escrito en el siglo vi. A partir de esta era, su evolución está mejor documentada y ampliamente aceptada en el
+        mundo académico. Tras la conquista de Persia por los árabes, éstos asimilaron el juego y lo difundieron en
+        Occidente, llevándolo al norte de África y Europa, e incluso la actual España e Italia alrededor del siglo x,
+        desde donde se extendió al resto del continente llegando a la región de Escandinavia e Islandia. En Oriente, el
+        ajedrez se ha expandido desde su versión china, el Xiangqi, a Corea y Japón en el siglo x.</p>
+      <p>En el siglo xv, el juego fue ampliamente difundido en Europa y entre las variantes existentes del juego, la
+        europea fue la que se destacó por la velocidad indicada y además por la inclusión de la dama y el alfil. A pesar
+        de que en esa época ya existía literatura de ajedrez, fue en este período cuando comenzaron a surgir los
+        primeros
+        análisis de aperturas debido a las nuevas posibilidades de juego.</p>
+      <p>Las partidas comenzaron a ser registradas con mayor frecuencia y se han publicado más estudios teóricos. En el
+        siglo xviii se fundaron los primeros clubes para la práctica de ajedrez y federaciones deportivas en Europa, y
+        debido a la gran cantidad de pequeños torneos que ocurren por todo el continente, en 1851 se celebró el primer
+        torneo internacional en Londres. La popularidad de las competiciones internacionales ha llevado a la creación
+        del
+        título de campeón del mundo, ganado por Wilhelm Steinitz en 1886, y, en 1924, se fundó la Federación
+        Internacional
+        de Ajedrez (FIDE), en París, que organiza la primera Olimpiada de Ajedrez y el mundial femenino, ganado por Vera
+        Menchik.</p>
+      <p>A finales de la década de 1950, con la popularización de las computadoras, comenzaron a surgir los primeros
+        programas que juegan al ajedrez, que acompañaban la evolución del tratamiento de la información e introducirían
+        el
+        juego en la era moderna con competiciones en línea y facilitando el análisis de las partidas.</p>
+      <img class="historia__imagen-historia" src="./assets/images/historia-ajedrez2.jpg" alt="Historia ajedrez">
+      <p>Las piezas de ajedrez, también conocidas como trebejos, son los elementos móviles del juego de ajedrez que usan
+        dos jugadores cada uno. Cada jugador dispone de dieciséis piezas:</p>
+      <ul class="historia__lista-historia">
+        <li class="historia__piezas">
+          <p class="piezas__nombre-pieza">Un rey.</p>
+          <p>El rey (♔♚) es la pieza más importante del ajedrez, darle jaque mate es el objetivo principal del juego.
+          </p>
+        </li>
+        <li class="historia__piezas">
+          <p class="piezas__nombre-pieza">Una dama (o reina).</p>
+          <p>La dama (♕♛), también conocida como reina, es una pieza mayor del juego de ajedrez, se puede mover
+            vertical, horizontal o diagonalmente cualquier número de escaques.</p>
+        </li>
+        <li class="historia__piezas">
+          <p class="piezas__nombre-pieza">Dos torres.</p>
+          <p>La torre (♖ ♜), antiguamente llamada «roque», es una pieza mayor de ajedrez, empleada generalmente en la
+            fase final del juego debido a su valor estratégico y táctico, que ha sido ampliamente estudiada en la
+            literatura ajedrecística.</p>
+        </li>
+        <li class="historia__piezas">
+          <p class="piezas__nombre-pieza">Dos alfiles.</p>
+          <p>El alfil (♗ ♝) (antiguamente llamado arfil) es una pieza menor del ajedrez occidental de valor aproximado
+            de tres peones.</p>
+        </li>
+        <li class="historia__piezas">
+          <p class="piezas__nombre-pieza">Dos caballos.</p>
+          <p>El caballo es una pieza menor del ajedrez occidental de un valor aproximado de tres peones. Tiene un
+            movimiento semejante a una "L" (también llamado "martillo") y, a diferencia de otras piezas, puede saltar
+            piezas intermedias.</p>
+        </li>
+        <li class="historia__piezas">
+          <p class="piezas__nombre-pieza">Ocho peones.</p>
+          <p>El peón es una pieza del ajedrez. Al comienzo de una partida, cada jugador tiene ocho peones que están
+            dispuestos en las filas 2 y 7, por delante del resto de piezas.</p>
+        </li>
+      </ul>
+      <div id="carouselImages" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/piezas-ajedrez.png" class="d-block w-100" alt="Piezas ajedrez">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/piezas-ajedrez2.jpg" class="d-block w-100" alt="Piezas ajedrez">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/piezas-ajedrez3.jpg" class="d-block w-100" alt="Piezas ajedrez">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselImages" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      <p>Las piezas de un jugador son de color blanco o claro, y se denominan "blancas", mientras que las del otro
+        jugador
+        son de color negro u oscuro y se denominan "negras". Además de estas piezas estándar, existen muchas variantes
+        de
+        ajedrez o ciertos tipos de problemas llamados no estándar, en los que hay piezas mágicas.</p>
+    </div>
+
+  </div>
+
+
+  </div>
+  <include src="./views/footer.html"></include>
+  <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>

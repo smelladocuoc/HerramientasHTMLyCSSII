@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
+  <title>UOC Boilerplate</title>
+</head>
+
+<include src="./views/header.html"></include>
+
+<body>
+  <div class="uoc-container-portada">
+
+    <h1 class="uoc-container-portada__titulo animate__animated animate__backInDown">Club de Ajedrez</h1>
+    <p class="uoc-container-portada__about animate__animated animate__backInDown">Bienvenidos al club de Ajedrez. Este
+      club ha sido creado por
+      un grupo de amigos para que haya
+      diversión y aprender todos juntos. Entre todos podemos hacer que el nivel del club mejore y podamos competir en
+      torneos por todo el país.</p>
+    <img class="uoc-container-portada__imagen-ajedrez animate__animated animate__backInDown"
+      src="./assets/images/ajedrez.jpeg" alt="Ajedrez">
+    <div class="uoc-container-portada__location animate__animated animate__backInDown">
+      <p class="location__place">Todos los días<br>Centro cultural</p>
     </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+
+  </div>
+  <include src="./views/footer.html"></include>
+  <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
 </html>

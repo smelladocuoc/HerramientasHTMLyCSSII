@@ -21,10 +21,10 @@ $uoc-corporate: #000078;
 $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 
-$sizeWidth: 36px;
-$sizeWidth2: $sizeWidth - math.div($sizeWidth, 3);
-$sizeWidth3: $sizeWidth - math.div($sizeWidth, 2) - 2;
-
 $mqMinWidth: 420px;
 $mqMinWidth2: 900px;
 $mqMinWidth3: 1200px;
+
+$sizeWidth: 36px;
+$sizeWidth2: $sizeWidth - math.div($sizeWidth, 3);
+$sizeWidth3: $sizeWidth - math.div($sizeWidth, 2) - 2;
